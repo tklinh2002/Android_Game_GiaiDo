@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/color_bangxephang_listview"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tvrank"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="10"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/imgRank"
+            android:layout_width="60dp"
+            android:layout_toRightOf="@+id/tvrank"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:id="@+id/tvNamePlayer"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/imgRank"
+            android:gravity="center_vertical"
+            android:text="linh"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDiemPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/tvNamePlayer"
+            android:text="100"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>

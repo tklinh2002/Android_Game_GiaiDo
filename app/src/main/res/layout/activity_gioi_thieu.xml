@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<TextView
+    android:id="@+id/tvGioiThieu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Giới thiệu"
+    android:textSize="40dp"
+    android:layout_marginTop="20dp"
+    android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvGioiThieu"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:text="\t\tĐố vui dân gian là một trò chơi thú vị bao gồm những câu đố dân gian, trí tuệ và các câu đố mẹo thuộc nhiều chủ đề khác nhau.
+\n\t\tVới kho câu đố phong phú, hấp dẫn, đa dạng, nhiều lĩnh vực khác nhau, phù hợp với tất cả mọi người, thú vị đem lại cho bạn những giây phút thư giãn thoải mái.
+\n\t\tỨng dụng còn đem lại nguồn kiến thức dồi dào về sự vật, hiện tượng, lịch sử, con người...
+\n\t\tHãy tận hưởng niềm vui, sự sảng khoái, và những bất ngờ thú vị với ĐỐ VUI DÂN GIAN!
+
+"
+        android:textSize="25dp" />
+    <ImageView
+        android:id="@+id/imgGioiThieuTroVe"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/trove"/>
+</RelativeLayout>
+

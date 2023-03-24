@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <ImageView
+        android:id="@+id/imgBaoCaoTroVe"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/trove" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\t\tHãy đưa ra những góp ý để trò chơi trở nên hoàn thiện hơn!"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edtBaoCao"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@id/tv1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:background="#E3EDF4"
+        android:gravity="top"
+        android:hint="Nhập góp ý"
+        android:padding="10dp"
+        android:textSize="23dp"
+        android:textStyle="italic" />
+    <Button
+        android:id="@+id/btnBaoCao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Góp ý"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtBaoCao"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:backgroundTint="@color/white"
+        android:textColor="#20F10D"/>
+
+</RelativeLayout>

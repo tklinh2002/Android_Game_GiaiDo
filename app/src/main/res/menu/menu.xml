@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menucaidat"
+        android:icon="@drawable/iconcaidat"
+        android:title="Cài đặt" />
+
+    <item
+        android:id="@+id/menubaoloi"
+        android:icon="@drawable/iconbaoloi"
+        android:title="Góp ý" />
+
+    <item
+        android:id="@+id/menugioithieu"
+        android:icon="@drawable/icongioithieu"
+        android:title="Giới thiệu trò chơi" />
+</menu>

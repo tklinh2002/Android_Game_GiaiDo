@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/arrows"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thống kê"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>
+
+    <ListView
+        android:id="@+id/lvThongKe"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/tvDatLaiThongKe"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/lvThongKe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Đặt lại thống kê"
+        android:textAllCaps="false"
+        android:textColor="#3047CC"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</RelativeLayout>

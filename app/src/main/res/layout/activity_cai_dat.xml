@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imgCaiDatTroVe"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/trove" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cài đặt"
+        android:textSize="40sp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/nhacnen" />
+
+    <TextView
+        android:id="@+id/tvNhacNen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="90dp"
+        android:text="Nhạc nền"
+        android:textSize="35dp"/>
+
+    <SeekBar
+        android:id="@+id/sbNhacNen"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/tvNhacNen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:progress="100" />
+    <SeekBar
+        android:id="@+id/sbAmThanh"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:progress="100"
+        android:layout_below="@id/tvAmThanh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/amthanh" />
+    <TextView
+        android:id="@+id/tvAmThanh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="90dp"
+        android:text="Âm thanh"
+        android:textSize="35dp"/>
+
+
+
+    <Button
+        android:id="@+id/btnDongY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/sbAmThanh"
+        android:layout_marginTop="40dp"
+        android:textColor="#20F10D"
+        android:text="Đồng ý"
+        android:textAllCaps="false"
+        android:textSize="24dp"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

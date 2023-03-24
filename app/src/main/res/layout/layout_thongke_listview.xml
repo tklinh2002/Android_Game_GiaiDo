@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/color_thongke"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/tvThongKeTitle"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:text="Trò chơi đã bắt đầu"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center_vertical" />
+        <TextView
+            android:id="@+id/tvThongKe"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="18"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+</RelativeLayout>
